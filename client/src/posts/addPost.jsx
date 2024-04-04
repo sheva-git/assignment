@@ -67,7 +67,7 @@ export default function PostFormDialog() {
                 </DialogContent>
                 <DialogActions>
                     <Button onClick={handleClose} color="primary">
-                        Cancel
+                        Cancel the button
                     </Button>
                     <Button disabled ={!title} onClick={() => { addFunction(); handleClose() }} color="primary">
                         Add
