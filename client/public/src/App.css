@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.page{
+  display: grid;
+  grid-template-rows:50px 1fr 30px ;  
+  min-height: 100vh;
+}
+header,footer{
+background-color:black ;
+color: white;
+ display: grid;
+ place-content: center;
+
+}
+.tasks-list{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+
+}
+.nav{
+  display: flex;
+  gap:10px;
+  font-size: 1.5rem;
+}
+.nav a{
+  color: aqua;
+}
+.nav a.active{
+  background-color: black;
+  color: white;
+}
+.deletebot{
+  background-color:aquamarine;
+  border: none;
+  font-size: 2rem;
+  border-radius: 30%;
+  padding: 10px;
+}
+.deletebot:hover{
+  background-color: darkcyan ;
+  color: cyan;
+
+}
