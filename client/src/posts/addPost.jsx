@@ -69,6 +69,7 @@ export default function PostFormDialog() {
                     <Button onClick={handleClose} color="primary">
                         Cancel the button
                     
+                        Cancel the update!!!!!!!!
                     </Button>
                     <Button disabled ={!title} onClick={() => { addFunction(); handleClose() }} color="primary">
                         Add Post
